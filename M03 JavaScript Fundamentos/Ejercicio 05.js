@@ -23,7 +23,8 @@ function esPositivo(num) {
 function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
    // Ejemplo: "hello world" ---> "hello world!"
-   return str + "!";
+   var exclamacion = "!";
+   return str + exclamacion;
 }
 
 function combinarNombres(nombre, apellido) {
@@ -37,7 +38,7 @@ function obtenerSaludo(nombre) {
    // Toma el string "nombre" y concatena otra string en la cadena para que tome la siguiente forma:
    // Ejemplo: "Martin" ---> "Hola Martin!"
    // Tu código:
-   return "hola " + nombre;
+   return "Hola " + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -74,10 +75,10 @@ function esVocal(letra) {
       return "Es vocal";
    }
    else if (letra.length > 1){
-      return "Dato incorrecto.";
+      return "Dato incorrecto";
    }
    else{
-      return letra.length;
+      return "Dato incorrecto";
    }
 }
 
